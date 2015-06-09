@@ -2,7 +2,7 @@
 layout: lesson
 root: ../..
 github_username: guyer.github.io
-bootcamp_slug: 2015-06-09-NIH
+bootcamp_slug: 2015-06-09-nih
 title: The Unix Shell
 ---
 **Based on material by Milad Fatenejad, Sasha Wood, and Radhika Khetani**
@@ -50,11 +50,11 @@ the data for this test, you will need internet access. Just enter the
 command:
 
     cd
-    git clone -b master https://github.com/{{page.github_username}}/{{page.bootcamp_slug}}.git
+    git clone -b master https://github.com/guyer.github.io/2015-06-09-nih.git
 
 Followed by:
 
-    cd {{page.bootcamp_slug}}
+    cd 2015-06-09-nih
 
 These 2 commands will grab all of the data needed for this workshop from the
 internet.
@@ -136,9 +136,9 @@ you will see that `testfile` is gone.
 
 Now, let's move to a different directory. The command `cd` (change
 directory) is used to move around. Let's move into the
-`{{page.bootcamp_slug}}` directory. Enter the following command:
+`2015-06-09-nih` directory. Enter the following command:
 
-    cd {{page.bootcamp_slug}}
+    cd 2015-06-09-nih
 
 Now use the `ls` command to see what is inside this directory. You
 will see that there is an entry which is green. This means that this
@@ -185,17 +185,17 @@ give `ls` the names of other directories to view. Navigate to the
 home directory if you are not already there. Then enter the
 command:
 
-    ls {{page.bootcamp_slug}}
+    ls 2015-06-09-nih
 
-This will list the contents of the `{{page.bootcamp_slug}}` directory without
+This will list the contents of the `2015-06-09-nih` directory without
 you having to navigate there. Now enter:
 
-    ls {{page.bootcamp_slug}}/day1-shell
+    ls 2015-06-09-nih/day1-shell
 
 This prints the contents of `shell`. The `cd` command works in a
 similar way. Try entering:
 
-    cd {{page.bootcamp_slug}}/day1-shell
+    cd 2015-06-09-nih/day1-shell
 
 and you will jump directly to `day1-shell` without having to go through
 the intermediate directory.
@@ -220,16 +220,16 @@ directory in `home` which is a directory in `/`.
 
 Now enter the following command:
 
-    cd /home/swc/{{page.bootcamp_slug}}/day1-shell
+    cd /home/swc/2015-06-09-nih/day1-shell
 
 This jumps to `shell`. Now go back to the home directory. We saw
 earlier that the command:
 
-    cd {{page.bootcamp_slug}}/day1-shell
+    cd 2015-06-09-nih/day1-shell
 
 had the same effect - it took us to the `shell` directory. But,
 instead of specifying the absolute path
-(`/home/swc/{{page.bootcamp_slug}}/day1-shell`), we specified a *relative
+(`/home/swc/2015-06-09-nih/day1-shell`), we specified a *relative
 path*. In other words, we specified the path relative to our current
 directory. A absolute path always starts with a `/`. A relative path does
 not. You can usually use either a absolute path or a relative path
@@ -257,7 +257,7 @@ above your current directory. Thus:
 
     ls ..
 
-prints the contents of the `/home/swc/{{page.bootcamp_slug}}`. You can chain
+prints the contents of the `/home/swc/2015-06-09-nih`. You can chain
 these together, so:
 
     ls ../../
@@ -331,7 +331,7 @@ directory name. For example, enter:
     cd S<tab>
 
 The shell will fill in the rest of the directory name for
-`{{page.bootcamp_slug}}`. Now enter:
+`2015-06-09-nih`. Now enter:
 
     ls 3<tab><tab>
 
@@ -407,7 +407,7 @@ directory. This tells the shell to run the `hello` program which is
 located right here. So, you can run any program by entering the path
 to that program. You can run `hello` equally well by specifying:
 
-    /home/swc/{{page.bootcamp_slug}}/day1-shell/hello
+    /home/swc/2015-06-09-nih/day1-shell/hello
 
 Or by entering:
 
@@ -442,7 +442,7 @@ is where the name comes from, `cat` is short for concatenate).
 
 2.  Without changing directories, (you should still be in `day1-shell`),
     use one short command to print the contents of all of the files in
-    the `/home/swc/{{page.bootcamp_slug}}/day1-shell/data/thomas` directory.
+    the `/home/swc/2015-06-09-nih/day1-shell/data/thomas` directory.
 
 * * * *
 
@@ -508,7 +508,7 @@ exists.
 Use `>>`, to append the contents of all of the files which contain the
 number 4 in the directory:
 
-    /home/swc/{{page.bootcamp_slug}}/day1-shell/data/gerdal
+    /home/swc/2015-06-09-nih/day1-shell/data/gerdal
 
 to the existing `some_data` file. Thus, when you are done `some_data`
 should contain all of the experiment data from Bert and any
