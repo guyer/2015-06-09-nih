@@ -1,0 +1,9 @@
+# 
+Reported: Fri Jul 29 10:35:34 2011
+Subject: babyJonas282
+Year/month of birth: 1993/02
+Sex: M
+CI type: 18
+Volume: 3
+Range: 3
+Discrimination: 4

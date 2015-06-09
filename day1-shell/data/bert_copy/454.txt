@@ -1,0 +1,9 @@
+# 
+Reported: Mon May 23 16:14:32 2011
+Subject: beyonceHarrison376
+Year/month of birth: 1994/10
+Sex: M
+CI type: 17
+Volume: 4
+Range: 7
+Discrimination: 

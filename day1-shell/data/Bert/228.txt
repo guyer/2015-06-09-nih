@@ -1,0 +1,9 @@
+# 
+Reported: Thu Jun 9 08:27:04 2011
+Subject: gingerStarr182
+Year/month of birth: 1994/06
+Sex: M
+CI type: 2
+Volume: 6
+Range: 6
+Discrimination: 3

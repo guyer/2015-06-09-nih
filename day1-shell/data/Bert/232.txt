@@ -1,0 +1,9 @@
+# 
+Reported: Tue Sep 13 14:05:36 2011
+Subject: madonnaJonas186
+Year/month of birth: 1992/08
+Sex: F
+CI type: 16
+Volume: 4
+Range: 10
+Discrimination: 

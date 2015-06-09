@@ -1,0 +1,9 @@
+# 
+Reported: Fri Jul 8 08:46:22 2011
+Subject: georgeCarrot384
+Year/month of birth: 1992/02
+Sex: M
+CI type: 17
+Volume: 1
+Range: 5
+Discrimination: 3

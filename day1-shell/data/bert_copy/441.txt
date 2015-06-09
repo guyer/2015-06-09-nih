@@ -1,0 +1,9 @@
+# 
+Reported: Tue Jun 14 14:50:14 2011
+Subject: princeBeet363
+Year/month of birth: 1991/07
+Sex: F
+CI type: 21
+Volume: 6
+Range: 4
+Discrimination: 2

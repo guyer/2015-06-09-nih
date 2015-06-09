@@ -1,0 +1,9 @@
+# 
+Reported: Tue Jul 19 16:28:19 2011
+Subject: madonnaSync305
+Year/month of birth: 1994/12
+Sex: F
+CI type: 17
+Volume: 5
+Range: 3
+Discrimination: 4

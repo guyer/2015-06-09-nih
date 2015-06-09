@@ -1,0 +1,9 @@
+# 
+Reported: Mon Sep 12 14:32:41 2011
+Subject: princeJonas177
+Year/month of birth: 1997/11
+Sex: F
+CI type: 13
+Volume: 6
+Range: 6
+Discrimination: 3

@@ -1,0 +1,9 @@
+# 
+Reported: Tue May 10 10:29:18 2011
+Subject: paulBeatle246
+Year/month of birth: 1992/04
+Sex: F
+CI type: 12
+Volume: 3
+Range: 5
+Discrimination: 

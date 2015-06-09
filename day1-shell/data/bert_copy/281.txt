@@ -1,0 +1,9 @@
+# 
+Reported: Tue Jul 26 14:28:41 2011
+Subject: paulJonas225
+Year/month of birth: 1996/12
+Sex: F
+CI type: 19
+Volume: 0
+Range: 6
+Discrimination: 2

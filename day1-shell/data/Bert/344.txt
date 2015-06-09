@@ -1,0 +1,9 @@
+# 
+Reported: Wed May 11 14:33:19 2011
+Subject: paulZ280
+Year/month of birth: 1995/07
+Sex: F
+CI type: 11
+Volume: 3
+Range: 3
+Discrimination: 4

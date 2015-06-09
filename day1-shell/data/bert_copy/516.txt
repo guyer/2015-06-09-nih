@@ -1,0 +1,9 @@
+# 
+Reported: Wed May 4 13:12:05 2011
+Subject: johnHarrison427
+Year/month of birth: 1996/06
+Sex: N
+CI type: 14
+Volume: 2
+Range: 5
+Discrimination: 3

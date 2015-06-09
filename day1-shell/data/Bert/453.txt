@@ -1,0 +1,9 @@
+# 
+Reported: Mon Aug 15 09:29:14 2011
+Subject: princeBroccoli375
+Year/month of birth: 1999/06
+Sex: F
+CI type: 24
+Volume: 5
+Range: 9
+Discrimination: 6

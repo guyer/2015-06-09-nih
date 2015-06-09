@@ -1,0 +1,9 @@
+# 
+Reported: Wed Sep 14 11:23:52 2011
+Subject: jayAsparagus202
+Year/month of birth: 1992/10
+Sex: M
+CI type: 25
+Volume: 8
+Range: 9
+Discrimination: 5

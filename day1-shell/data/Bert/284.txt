@@ -1,0 +1,9 @@
+# 
+Reported: Thu Sep 1 10:27:38 2011
+Subject: georgeZ228
+Year/month of birth: 1995/05
+Sex: N
+CI type: 7
+Volume: 2
+Range: 9
+Discrimination: 8

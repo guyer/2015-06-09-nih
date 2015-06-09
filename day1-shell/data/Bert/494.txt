@@ -1,0 +1,9 @@
+# 
+Reported: Sun Jun 5 09:08:15 2011
+Subject: ringoSpice409
+Year/month of birth: 1997/03
+Sex: N
+CI type: 15
+Volume: 3
+Range: 9
+Discrimination: 3

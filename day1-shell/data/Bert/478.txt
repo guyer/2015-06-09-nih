@@ -1,0 +1,9 @@
+# 
+Reported: Wed May 11 10:57:08 2011
+Subject: gingerBackstreet398
+Year/month of birth: 1998/01
+Sex: F
+CI type: 18
+Volume: 0
+Range: 4
+Discrimination: 4

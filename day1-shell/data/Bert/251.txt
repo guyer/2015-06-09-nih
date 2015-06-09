@@ -1,0 +1,9 @@
+# 
+Reported: Tue Aug 23 14:26:29 2011
+Subject: poshBroccoli201
+Year/month of birth: 1999/03
+Sex: N
+CI type: 7
+Volume: 3
+Range: 5
+Discrimination: 6

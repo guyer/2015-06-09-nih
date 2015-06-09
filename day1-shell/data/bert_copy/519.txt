@@ -1,0 +1,9 @@
+# 
+Reported: Fri May 13 11:35:39 2011
+Subject: robynSync429
+Year/month of birth: 1999/03
+Sex: M
+CI type: 16
+Volume: 8
+Range: 9
+Discrimination: 6

@@ -1,0 +1,9 @@
+# 
+Reported: Thu Aug 11 08:23:34 2011
+Subject: ringoSync189
+Year/month of birth: 1994/10
+Sex: M
+CI type: 15
+Volume: 1
+Range: 1
+Discrimination: 6

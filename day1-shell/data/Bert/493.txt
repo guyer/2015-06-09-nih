@@ -1,0 +1,9 @@
+# 
+Reported: Sat Jul 2 12:34:10 2011
+Subject: ringoBeet408
+Year/month of birth: 1997/04
+Sex: M
+CI type: 11
+Volume: 4
+Range: 4
+Discrimination: 2

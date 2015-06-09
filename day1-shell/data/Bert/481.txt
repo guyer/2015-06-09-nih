@@ -1,0 +1,9 @@
+# 
+Reported: Sun May 29 08:55:53 2011
+Subject: paulCarrot401
+Year/month of birth: 1996/06
+Sex: F
+CI type: 5
+Volume: 3
+Range: 6
+Discrimination: 6

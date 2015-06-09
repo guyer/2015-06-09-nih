@@ -1,0 +1,9 @@
+# 
+Reported: Mon Jul 4 09:46:51 2011
+Subject: scarySync241
+Year/month of birth: 1997/06
+Sex: F
+CI type: 25
+Volume: 4
+Range: 7
+Discrimination: 6

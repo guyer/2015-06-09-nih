@@ -1,0 +1,9 @@
+# 
+Reported: Fri Jun 10 15:38:09 2011
+Subject: ringoBeatle208
+Year/month of birth: 1998/01
+Sex: N
+CI type: 23
+Volume: 6
+Range: 6
+Discrimination: 

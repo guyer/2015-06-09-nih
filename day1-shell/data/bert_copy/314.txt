@@ -1,0 +1,9 @@
+# 
+Reported: Sun Jun 5 08:18:14 2011
+Subject: beyonceSync251
+Year/month of birth: 1994/11
+Sex: N
+CI type: 6
+Volume: 4
+Range: 4
+Discrimination: 1
