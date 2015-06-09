@@ -1,7 +1,7 @@
 ---
 layout: lesson
 root: ../..
-github_username: guyer.github.io
+github_username: guyer
 bootcamp_slug: 2015-06-09-nih
 title: The Unix Shell
 ---
@@ -50,7 +50,7 @@ the data for this test, you will need internet access. Just enter the
 command:
 
     cd
-    git clone -b master https://github.com/guyer.github.io/2015-06-09-nih.git
+    git clone -b master https://github.com/guyer/2015-06-09-nih.git
 
 Followed by:
 
