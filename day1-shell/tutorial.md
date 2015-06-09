@@ -50,7 +50,7 @@ the data for this test, you will need internet access. Just enter the
 command:
 
     cd
-    git clone -b master https://github.com/guyer/2015-06-09-nih.git
+    git clone -b gh-pages https://github.com/guyer/2015-06-09-nih.git
 
 Followed by:
 
@@ -207,27 +207,32 @@ name. Directories can be specified using either a *relative* path a
 full *path*. The directories on the computer are arranged into a
 hierarchy. The absolute path tells you where a directory is in that
 hierarchy. Navigate to the home directory. Now, enter the `pwd`
-command and you should see:
+command and you should see something similar to this:
 
-    /home/swc/{{page.bootcamp_slub}}/day1-shell
+    /home/swc/2015-06-09-nih/day1-shell
 
-which is the full name of your home directory. This tells you that you
-are in a directory called `swc`, which sits inside a directory called
-`home` which sits inside the very top directory in the hierarchy. The
-very top of the hierarchy is a directory called `/` which is usually
-referred to as the *root directory*. So, to summarize: `swc` is a
-directory in `home` which is a directory in `/`.
+which is the full path of your current location. This tells you that you
+are in a directory called `day1-shell`, which sits inside a directory called
+`2015-06-09-nih` which sits inside `swc` which sits inside the very top 
+directory in the hierarchy. The very top of the hierarchy is a directory 
+called `/` which is usually referred to as the *root directory*. So, to 
+summarize: `swc` is a directory in `home` which is a directory in `/`.
+from now on, we will use `/home/swc` as an example throughout the rest
+of the tutorial. Make sure you substitute `/home/swc` with your own system 
+path leads to `/2015-06-09-nih/day1-shell`. Whenever you are in doubt, use
+`pwd` to see where you are at. 
 
-Now enter the following command:
+Now enter the following command (don't forget to modify `/home/swc` to suite
+your system):  :
 
     cd /home/swc/2015-06-09-nih/day1-shell
 
-This jumps to `shell`. Now go back to the home directory. We saw
+This jumps to `day1-shell`. Now go back to the home directory. We saw
 earlier that the command:
 
     cd 2015-06-09-nih/day1-shell
 
-had the same effect - it took us to the `shell` directory. But,
+had the same effect - it took us to the `day1-shell` directory. But,
 instead of specifying the absolute path
 (`/home/swc/2015-06-09-nih/day1-shell`), we specified a *relative
 path*. In other words, we specified the path relative to our current
@@ -237,8 +242,13 @@ depending on what is most convenient. If we are in the home directory,
 it is more convenient to just enter the relative path since it
 involves less typing.
 
-Now, list the contents of the /bin directory. Do you see anything
+* * *
+** Short Exercise **
+
+Now, list the contents of the `/bin` directory. Do you see anything
 familiar in there?
+
+* * *
 
 ### Saving time with shortcuts, wild cards, and tab completion
 
@@ -437,12 +447,12 @@ is where the name comes from, `cat` is short for concatenate).
 * * * *
 **Short Exercises**
 
-1.  Print out the contents of the `day1-shell/dictionary.txt`
+1.  Print out the contents of the `data/dictionary.txt`
     file. What does this file contain?
 
 2.  Without changing directories, (you should still be in `day1-shell`),
     use one short command to print the contents of all of the files in
-    the `/home/swc/2015-06-09-nih/day1-shell/data/thomas` directory.
+    the `/home/swc/2015-06-09-nih/day1-shell/data/Bert` directory.
 
 * * * *
 
@@ -450,7 +460,7 @@ is where the name comes from, `cat` is short for concatenate).
 be annoying to use. The program, `less`, is useful for this
 case. Enter the following command:
 
-    less day1-shell/dictionary.txt
+    less data/dictionary.txt
 
 `less` opens the file, and lets you navigate through it. The commands
 are identical to the `man` program. Use "space" to go forward and hit
@@ -483,7 +493,7 @@ in reverse while using `less`.
 Let's turn to the experimental data from the hearing tests that we
 began with. This data is located in the `day1-shell/data/`
 directory. Each subdirectory corresponds to a particular participant
-in the study. Navigate to the `bert` subdirectory in `data`.  There
+in the study. Navigate to the `Bert` subdirectory in `data`.  There
 are a bunch of text files which contain experimental data
 results. Lets print them all:
 
@@ -511,7 +521,7 @@ number 4 in the directory:
     /home/swc/2015-06-09-nih/day1-shell/data/gerdal
 
 to the existing `some_data` file. Thus, when you are done `some_data`
-should contain all of the experiment data from Bert and any
+should contain all of the experiment data starts with "45" from `Bert` and any
 experimental data file from gerdal that contains the number 4.
 
 * * * *
@@ -598,9 +608,13 @@ the number of words. Finally, the total number of characters is
 indicated. The final line contains this information summed over all of
 the files. Thus, there were 9813 characters in total. 
 
-Remember that the `bert/*` and `gerdal/*4*` files were merged
-into the `some_data` file. So, we should see that `some_data` contains
-the same number of characters:
+Let's make another `some_data` file again by combining all files in `bert` 
+and all files with file-names containing number 4 in `gerdal`:
+
+    cat bert/* gerdal/*4* > some_data
+
+Now, we can count the number of lines, words, and characters in `some_data` 
+and they should be the same as the previous output:
 
     wc some_data
 
@@ -819,7 +833,7 @@ file containing the file with the smallest Range. Use the commands
 ## Finding files
 
 The `find` program can be used to find files based on arbitrary
-criteria. Navigate to the `data` directory and enter the following
+criteria. Navigate to the `all_data/ernie` directory and enter the following
 command:
 
     find . -print
